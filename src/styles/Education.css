@@ -1,0 +1,106 @@
+#education-section {
+    margin: 0 5% 5% 5%;
+}
+
+.degree, .university {
+    width: 40%;
+}
+
+.education-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 0 0 2% 0;
+}
+
+.education-card:hover {
+    border: 1.5px solid red;
+    border-radius: 10px;
+}
+
+.edu-first-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input.degree-input, input.university-input {
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.education-divider {
+    font-size: 1.2rem;
+    font-weight: 1000;
+}
+
+.edu-second-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input.degree-subject {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.subject-placeholder {
+    opacity: 0.0;
+}
+
+.attendance-container {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.dates-attended {
+    width: 40%;
+    height: 50%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.attendance-divider {
+    width: 20%;
+    text-align: center;
+}
+
+.remove-education, #add-education {
+    display: none;
+    background-color: #b15a5a;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.edu-third-row {
+    display: block;
+    padding: 0 0 0 5%;
+}
+
+.education-card:hover .remove-education, #education-section:hover #add-education {
+    display: block;
+}
+
+#add-education {
+    margin: 2% 0 2% 5%;
+}

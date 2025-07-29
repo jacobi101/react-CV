@@ -1,0 +1,130 @@
+#experience-section {
+    margin: 0 5% 5% 5%;
+}
+
+.job-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 0 0 2% 0;
+}
+
+.job-card:hover {
+    border: 1.5px solid red;
+    border-radius: 10px;
+}
+
+.job-first-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.job-title {
+    width: 50%;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.job-second-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+}
+
+.company, .location {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.company-divider {
+    width: 10%;
+    text-align: center;
+}
+
+.tenure-container {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tenure-dates {
+    width: 40%;
+    height: 50%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.tenure-divider {
+    width: 20%;
+    text-align: center;
+}
+
+.job-third-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.job-summary {
+    width: 100%;
+    background-color: #f8f8f8;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 10px;
+    resize: vertical;
+    cursor: text;
+    overflow-wrap: break-word;
+    margin: 3% 0 3% 0;
+
+}
+
+
+
+.remove-experience, #add-experience {
+    display: none;
+    background-color: #b15a5a;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.job-fourth-row {
+    display: block;
+    padding: 0 0 0 5%;
+}
+
+.job-card:hover .remove-experience, #experience-container:hover #add-experience{
+    display: block;
+}
+
+#add-experience {
+    margin: 2% 0 2% 5%;
+}
+

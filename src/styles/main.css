@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: wheat;
+    color: black; /* Light text color */
+    width: 100vw;
+    justify-content: center;
+}
+
+#root {
+    background-color: antiquewhite;
+    width: 60vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.line {
+    height: 3px;
+    background-color: #5a58d3;
+    margin: 1% 0 2% 0;
+}
+
+.cv-headers {
+    margin: 2% 0 1% 0;
+}
